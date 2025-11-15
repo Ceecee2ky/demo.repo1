@@ -39,7 +39,7 @@
             },
             {
                 id: 4,
-                name: "Smartphone with Dual Camera and Good Selfie Camera",
+                name: "Smartphone with Dual Camera",
                 price: 900000,
                 oldPrice: 1050000,
                 image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",

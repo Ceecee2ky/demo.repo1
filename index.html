@@ -711,6 +711,15 @@ loginForm.addEventListener('submit', async (e) => {
         setLoading(loginBtn, false);
     }
 });
+
+function debugAuthStatus() {
+    console.log('🔍 Auth Debug Information:');
+    console.log('Firebase initialized:', !!auth);
+    console.log('Current user:', auth?.currentUser);
+    console.log('Auth methods available:');
+    console.log('- signInWithEmailAndPassword:', typeof auth?.signInWithEmailAndPassword);
+    console.log('- createUserWithEmailAndPassword:', typeof auth?.createUserWithEmailAndPassword);
+}
     </script>
 </body>
 </html>
